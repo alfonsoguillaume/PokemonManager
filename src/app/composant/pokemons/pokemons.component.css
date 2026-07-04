@@ -1,0 +1,23 @@
+.liste-pokemons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.carte-pokemon {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.nom-pokemon {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.details-pokemon {
+  font-size: 0.9em;
+}

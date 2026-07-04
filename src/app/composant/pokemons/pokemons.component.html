@@ -1,1 +1,11 @@
-<p>pokemons works!</p>
+<div class="liste-pokemons">
+  <div *ngFor="let pokemon of pokemons" class="carte-pokemon">
+    <div class="nom-pokemon">{{ pokemon.name }}</div>
+    <div class="details-pokemon">
+      Catégorie : {{ pokemon.categorie }}<br>
+      Type : {{ pokemon.type }}<br>
+      Taille : {{ pokemon.taille }} m<br>
+      Poids : {{ pokemon.poids }} kg
+    </div>
+  </div>
+</div>
