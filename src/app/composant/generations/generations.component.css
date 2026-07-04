@@ -1,0 +1,15 @@
+.generations-container {
+  @apply p-6 bg-gray-50;
+}
+
+.title-list {
+  @apply text-2xl font-bold text-gray-800 mb-4;
+}
+
+.list-items {
+  @apply space-y-3;
+}
+
+.item {
+  @apply bg-white p-4 rounded-lg shadow border border-gray-200 hover:shadow-md transition-shadow;
+}

@@ -1,1 +1,29 @@
-<p>generations works!</p>
+<!--<div class="generations">
+  <a
+    *ngFor="let generation of generations"
+    [routerLink]="['/generation', generation.id]"
+  >
+    {{ generation.name }}
+  </a>
+</div>
+
+lien clicable de chaque generation
+-->
+<!--<div class="generations">
+  <div *ngFor="let generation of generations">
+    {{ generation.name }}
+  </div>
+</div>
+
+affichage sans liste-->
+
+<div class="generations-container">
+  <h2 class="title-list">LES DIFFÉRENTES GÉNÉRATIONS:</h2>
+  
+  <ul class="list-items">
+    <li *ngFor="let generation of generations" class="item">
+      {{ generation.name }}
+    </li>
+  </ul>
+</div>
+<!-- affichage sous forme de liste -->
